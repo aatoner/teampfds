@@ -4,4 +4,4 @@ Add your name, and then push it back to the master branch.
 
 -LaRissa
 
-Weslee Editing the file
+Weslee Editing the file, making sure I actually understand whats going on.. 
