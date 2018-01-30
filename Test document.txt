@@ -3,3 +3,5 @@ Please pull the file from the master branch.
 Add your name, and then push it back to the master branch.
 
 -LaRissa
+
+Weslee Editing the file
