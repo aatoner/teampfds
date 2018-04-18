@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- This single page encompasses the entire UI elements of the interactive page.-->
+<head>
+    <title>The Incredibly Spooky Murder Mystery</title>
+    <link rel="stylesheet" type="text/css" href="mastersheet.css"/>
+    
+    
+</head>
+<body>
+    <div id="bodyContainer">
+    
+   
+        <div id="uiContainer">
+        <!--The UI is broken into three divisions; top, middle and bottum ui.-->
+
+        <!-- Top UI container. This includes the menuIcon on the far right corner.-->
+            <div id="topUI">
+
+                <!-- Menu Icon will allow the player to make an accusation or exit the game -->
+                <div id ="menuIcon"></div>
+
+            </div>
+
+
+
+        <!--The middle UI divider includes the left and right navigations  the clue, and the NPC.-->
+            <div id="middleUI">
+
+                <div id="buttonContainer">
+                    <!-- The navigation arrows set left and right respectively.-->
+                    <div id="leftNav"></div>
+                    <div id="forwardNav"></div>
+                    <div id="backNav"></div>
+                    <div id="rightNav"></div>
+                </div>
+
+                <!-- These two objects will be the clue item and the NPC to talk to for clues. -->
+                <div id ="clueNPC"></div>
+                <div id="clueObject"></div>
+            </div>
+
+
+
+
+            <div id="bottomUI">
+
+                <!-- This divider contains a cluebook (and later a static map icon) on the far right corner-->
+                <div id="clueBook"></div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="navigation.js"></script>

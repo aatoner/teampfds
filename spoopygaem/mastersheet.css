@@ -1,0 +1,109 @@
+body{
+    margin:0px;
+}
+
+
+
+/*Main body element that is swapped via script*/
+#bodyContainer{
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+#uiConatiner{
+    display:flex;
+    flex-direction: column;
+   
+
+}
+
+/*These are the UI dividers.*/
+#topUI{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow:1;
+
+}
+#middleUI{
+    display:flex;
+    flex-grow: 2;
+    height:525px;
+
+}
+#buttonContainer{
+    width:100%;
+    height:25%;
+    display:flex;
+    justify-content: space-between;
+}
+#bottomUI{
+    display:flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+
+}
+
+
+/*Navigation css*/
+#leftNav{
+    border: 1px solid red;
+    background-color: darkred;
+    margin: 15% 2% 0% 2%;
+    height:100px;
+    width:50px;
+}
+#rightNav{
+    border: 1px solid red;
+    background-color: darkred;
+    margin: 15% 2% 0% 2%;
+    height:100px;
+    width:50px;
+}
+#forwardNav{
+    border: 1px solid green;
+    background-color: darkgreen;
+    height:100px;
+    width:50px;
+    margin-right: -40%;
+    margin-top:-2%;
+    
+    
+}
+#backNav{
+    border: 1px solid Purple;
+    background-color: darkviolet;
+    height:100px;
+    width:50px;
+    margin-top:30%;
+    margin-right:5%;
+}
+
+
+
+/*Clue related objects.*/
+#clueBook{
+    border:1px solid blue;
+    background-color:navy;
+     width:85px;
+    height:150px;
+}
+#clueNPC{
+    border:1px solid blue;
+    background:blue;
+    width:75px;
+    margin-left: -25%;
+}
+#clueObject{
+    
+   
+}
+
+#menuIcon{
+    border:1px solid grey;
+    background-color:tan;
+    width:50px;
+    height:50px;
+}
